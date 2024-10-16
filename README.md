@@ -17,9 +17,9 @@
 
 ## スクリーンショット
 
-| ![Image 1](./Images/1.png) | ![Image 2](./Images/2.png) | ![Image 3](./Images/3.png) |
+| ![Image 1](./1.png) | ![Image 2](./2.png) | ![Image 3](./3.png) |
 |---------------------------------|---------------------------------|---------------------------------|
-| ![Image 4](./Images/4.png) | ![Image 5](./Images/5.png) | ![Image 6](./Images/6.png) |
+| ![Image 4](./4.png) | ![Image 5](./5.png) | ![Image 6](./6.png) |
 
 
 
