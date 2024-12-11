@@ -42,6 +42,5 @@
 PDFのやり方は基本ユーザ任意でコンテンツをアプリに入れて使うのですが、やはり著作権の問題、登録の不便性などの為名言の引用（Quote）などから学習内容を選べるような仕組みを作るREST API：
 https://github.com/KaneEast/english-app-api
 を開発してiOSアプリ側で使えうるように工夫しています。
-https://github.com/KaneEast/english-app-api
 
 | ![Image 7](./7.png) | ![Image 8](./8.png) | ![Image 9](./9.png) |
