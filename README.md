@@ -17,42 +17,121 @@
 
 ## スクリーンショット
 
-| ![Image 1](./1.png) | ![Image 2](./2.png) | ![Image 3](./3.png) |
+| ![Image 1](imgs/1.png) | ![Image 2](imgs/2.png) | ![Image 3](imgs/3.png) |
 |---------------------------------|---------------------------------|---------------------------------|
-| ![Image 4](./4.png) | ![Image 5](./5.png) | ![Image 6](./6.png) |
+| ![Image 4](imgs/4.png) | ![Image 5](imgs/5.png) | ![Image 6](imgs/6.png) |
 
 
 
 ## 技術スタック
 - SwiftUI
-- SwiftData
+- GRDB
 - Observation
 - NaturalLanguage
-- PDFKit
-- AVKit（読み上げ用）
-
-## 開発上の課題と解決策
-
-- PDFファイルの１ページずつの内容から句に分割していますがページによってそのページで句が終わらない場合はがあり、解決案はありますが、実装していません。
-- デザインに関して色々変えてみたりしましたが変動頻度が高いので現時点ではあまりには気に入らないままのUIになっています。
-- PDFファイルをアプリに読み込みの代替案には一人として作業量がありそうです。
+- Readium
+- AVKit
 
 
-## 追記
-PDFのやり方は基本ユーザ任意でコンテンツをアプリに入れて使うのですが、やはり著作権の問題、コンテンツ登録の不便性などの為、
-名言（Quote）、読み物からの気に入った内容などから学習内容を選べるような仕組みを作るREST API:
-https://github.com/KaneEast/english-app-api
-を開発してiOSアプリ側で使えうるように工夫しています。
+## プログレス
+now:        Tool -
+            note:
+important:  text extract from reader page, more presisely, only from viewport
 
-またREST APIの方でYoubuteのドキュメンタリーの字幕を用意しアプリ側でダウンロードする形で読み物を提供しています。
+# TODOs
+- [ ] Dictionary - create dictionary data (raw)
+- [ ] Dictionary - precreate dictionary database (sqlite .db)
+- [ ] Dictionary - research all kind of part of speech(gutenberg and others) ---- Research
+- [ ] Reader - LearningView text extract from reader page, more presisely, only from viewport
+- [ ] Reader - LearningView text on page iterator
+- [ ] Reader - Settings UI Research
+- [x] Settings - and view
+- [x] Settings - add software libraries section
+- [x] Settings - Language and Voice Categorization Research
+- [ ] Settings - Where to find Free E books
+- [x] Settings - voices pitch and speed (source done)
+- [ ] Settings - voices pitch and speed (target)
+- [x] Settings - TTS: TTSViewModel need to use non global voice, language pitch, rate
+- [x] Settings - TTS: AVTTSEngine - make preUtteranceDelay configurable by Settings
+- [x] Tool - HapticsManager
+- [x] Tool - SoundEffectManager
+- [x] Tool - Alert
+- [x] Tool - Logging System (SwiftyBeaver)
+- [x] Tool - ThemeApplier: clean (deleted unused code for now)
+- [ ] Tool - Error and Alert Handling
+- [x] Tool - NLService (testing)
+- [x] Book - rename
+- [x] Book - States (Finished)
+- [x] Book - Add default book from bundle
+- [x] Book - tags (Category) (add remove)
+- [ ] Book - tags LibraryView set filter menu for navigation title (by tag)
+- [ ] Book - tags Book relation to tag and UI
+- [ ] Book - Add Users Reading PaperBook Info for tracking
+- [ ] Book - ReadiumUserPreferencesStore(for book and for shared save on database)  Understant each settings effect
+- [ ] Book - importPublications (more than one)
+- [ ] Wordlist - view design
+- [ ] Wordlist - add sentence(database record) similar to add word x add highlight. (learning sentence)
+- [ ] ProblemsFix - warnings when close in appp browser
+- [X] ProblemsFix - Library forlder seems no more needed
+- [ ] ProblemsFix - Japanese Vertical LtoR Epub Navigation Problem
+- [x] ProblemsFix - Bookmarks and Highlights are not showing
+- [ ] ProblemsFix - Reader-> User Preferences -> Theme BG Color not applying to NavigationBar some time.
+- [x] ProblemsFix - Readers sheet has different button color with global tint color.
+- [ ] Polish - Logging replace prints to log
+- [ ] Polish - add sound effect to events
+- [ ] Polish - add haptic event to buttons
+- [ ] Polish - systemImage Icons
+- [ ] Polish - settings add developer section
+- [ ] Polish - SwiftUI Preview
+- [ ] Polish - Onboarding
+- [ ] Polish - App Icon
+- [ ] Polish - Splash
+- [ ] Polish - FOSS License json file
+- [ ] Polish - FOSS License view polish
+- [ ] Polish - Search View Polish
+- [ ] Polish - Settings add Helper View (Show onboarding sheet?)
+- [ ] Other - TextContentSpeechSynthesizer
+- [ ] Other - Design System
 
-まだ開発途中です。
+# Research Expands
+- [ ] Apple developer
+- [ ] IAP https://adapty.io/blog/in-app-purchase-tutorial-for-ios/
+- [ ] S,Ex String Localization
+- [ ] Ex Share Extension
+- [ ] Ex Open url router add Webview Router similar to Safari Router
+- [ ] Ex Store AI API key to Firebasestore and use it.
+- [ ] Ex Font Picker from IceCube ??
 
-| ![Image 7](./7.png) | ![Image 8](./8.png) | ![Image 9](./9.png) |
-|-----------------------|-----------------------|-----------------------|
-| ![Image 10](./10.png) | ![Image 11](./11.png) | ![Image 12](./12.png) |
+# App State
+- Show users learning words only for now.
 
-### コードの一部
-| ![Image 13](./13.png) | ![Image 14](./14.png) | ![Image 15](./15.png) |
-|-----------------------|-----------------------|-----------------------|
-| ![Image 16](./16.png) | ![Image 17](./17.png) | ![Image 18](./18.png) |
+# iOS Github libs
+  https://swiftpackageindex.com
+  - https://github.com/dkk/WrappingHStack
+  - https://www.wishkit.io/?ref=github
+  - https://telemetrydeck.com
+  - https://swiftpackageindex.com/
+  - https://github.com/siteline/swiftui-introspect
+  - https://github.com/scinfu/SwiftSoup
+  - https://github.com/swiftlang/swift-markdown
+  - https://github.com/SFSafeSymbols/SFSafeSymbols
+  - https://github.com/RevenueCat/purchases-ios             https://www.revenuecat.com
+  - https://github.com/kean/Nuke
+  - https://github.com/nicklockwood/LRUCache/
+  - https://github.com/evgenyneu/keychain-swift
+  - https://github.com/divadretlaw/EmojiText
+  - https://github.com/commonmark/cmark
+  - https://github.com/Dean151/ButtonKit
+  - https://github.com/mergesort/Bodega
+  - https://github.com/SwiftyBeaver/SwiftyBeaver  (logger)
+
+# Milestone
+1. Reader
+2. Vocab
+3. Tokenize
+4. Text to Speech
+5. Translate
+6. Setting
+7. Deck
+8. Quiz
+9. Tracking
+10. AI
