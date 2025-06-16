@@ -21,10 +21,10 @@
 
 | - | - | - |
 | ---- | ---- | ---- |
-| ![Image 1](imgs/1.png) | ![Image 2](imgs/2.png) | ![Image 3](imgs/3.png) |
-| ![Image 4](imgs/4.png) | ![Image 5](imgs/5.png) | ![Image 6](imgs/6.png) |
-| ![Image 7](imgs/7.png) | ![Image 8](imgs/8.png) | ![Image 6](imgs/9.png) |
-| ![Image 10](imgs/10.png) | ![Image 11](imgs/11.png) | ![Image 12](imgs/12.png) |
+| ![Image 1](imgsnew/1.png) | ![Image 2](imgsnew/2.png) | ![Image 3](imgsnew/3.png) |
+| ![Image 4](imgsnew/4.png) | ![Image 5](imgsnew/5.png) | ![Image 6](imgsnew/6.png) |
+| ![Image 7](imgsnew/7.png) | ![Image 8](imgsnew/8.png) | ![Image 6](imgsnew/9.png) |
+| ![Image 10](imgsnew/10.png) | ![Image 11](imgsnew/11.png) | ![Image 12](imgsnew/12.png) |
 
 
 ## 技術スタック
