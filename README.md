@@ -147,6 +147,6 @@
 8. Deck (Remember)
 9. Quiz - Toeic like | Word Fitting Like Duolingo | Translation | Speech Recognize | Keboard typping
 10. AI - iOS 26, Apple Inteligence, Foundation Models | AI API Services
-11. Serverside Content by server or Content provider servuce
+11. Serverside Content by server or Content provider service
 12. Serverside feature, User, Connection
-13. Mastodon Social
+13. Social
