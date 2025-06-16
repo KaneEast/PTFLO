@@ -4,7 +4,7 @@
 ## プロジェクト概要
 
 まだ進行中の個人作成アプリです。
-ユーザーがローカルから英語内容の本（EPUN,PDF）をアプリに読み込み、単語分割、翻訳、読み上げできるようにしています。
+ユーザーがローカルから英語内容の本（EPUB,PDF）をアプリに読み込み、単語分割、翻訳、読み上げできるようにしています。
 単語の記憶ステータス管理ができます。（例：本を読む途中、その後）
 
 まだ開発中とストアにリリースの為しばらくソースコードの公開はありません。
@@ -19,26 +19,26 @@
 
 ## スクリーンショット
 
+| - | - | - |
+| ---- | ---- | ---- |
 | ![Image 1](imgs/1.png) | ![Image 2](imgs/2.png) | ![Image 3](imgs/3.png) |
-|---------------------------------|---------------------------------|---------------------------------|
 | ![Image 4](imgs/4.png) | ![Image 5](imgs/5.png) | ![Image 6](imgs/6.png) |
-
+| ![Image 7](imgs/7.png) | ![Image 8](imgs/8.png) | ![Image 6](imgs/9.png) |
+| ![Image 10](imgs/10.png) | ![Image 11](imgs/11.png) | ![Image 12](imgs/12.png) |
 
 
 ## 技術スタック
-- SwiftUI
+
+- SwiftUI, UIKit
 - GRDB
 - Observation
+- Combine
 - NaturalLanguage
 - Readium
 - AVKit
 - Translation
 - ...
 
-## プログレス
-now:        Tool -
-            note:
-important:  text extract from reader page, more presisely, only from viewport
 
 # TODOs
 - [ ] Dictionary - create dictionary data (raw)
@@ -47,12 +47,30 @@ important:  text extract from reader page, more presisely, only from viewport
 - [ ] Reader - LearningView text extract from reader page, more presisely, only from viewport
 - [ ] Reader - LearningView text on page iterator
 - [ ] Reader - Settings UI Research
+- [ ] Reader - HTMLResourceContentIterator
+- [ ] Reader - _HTMLResourceContentExtractor
+- [ ] DB - prePorpulate condition handling
+- [ ] DB - Migration Documentation
+- [ ] Tracker
+  - [ ] Track Users known words
+  - [x] Extract words from EPub
+  - [ ] Extract words from PDF
+  - [ ] Words Counter
+    - [ ] filtering simple basic words (definition of list not copleted)
+    - [ ] filtering users known words
+    - [x] counting by simple words (words shown on text)
+    - [x] counting by lemmatized words
+    - [ ] counting - write swing test
+    - [x] sorting result by count
+    - [x] sorting result by alphabetic
+    - [ ] sorting descending
+    - [x] UI fot show result (BookAnalyzeView)
+      - [ ] state controll (ignore), translate, polish (Make Batch Translation, for example if there is 4k words in the list, translate 100 words in once)
 - [x] Settings - and view
 - [x] Settings - add software libraries section
 - [x] Settings - Language and Voice Categorization Research
-- [ ] Settings - Where to find Free E books
 - [x] Settings - voices pitch and speed (source done)
-- [ ] Settings - voices pitch and speed (target)
+- [x] Settings - voices pitch and speed (target)
 - [x] Settings - TTS: TTSViewModel need to use non global voice, language pitch, rate
 - [x] Settings - TTS: AVTTSEngine - make preUtteranceDelay configurable by Settings
 - [x] Tool - HapticsManager
@@ -65,76 +83,70 @@ important:  text extract from reader page, more presisely, only from viewport
 - [x] Book - rename
 - [x] Book - States (Finished)
 - [x] Book - Add default book from bundle
-- [x] Book - tags (Category) (add remove)
-- [ ] Book - tags LibraryView set filter menu for navigation title (by tag)
-- [ ] Book - tags Book relation to tag and UI
-- [ ] Book - Add Users Reading PaperBook Info for tracking
-- [ ] Book - ReadiumUserPreferencesStore(for book and for shared save on database)  Understant each settings effect
 - [ ] Book - importPublications (more than one)
 - [ ] Wordlist - view design
 - [ ] Wordlist - add sentence(database record) similar to add word x add highlight. (learning sentence)
+- [x] ProblemsFix - Translation frequently no result, or not refreshing UI. (Do not translate too long text. batch translation seems no problem)
 - [ ] ProblemsFix - warnings when close in appp browser
 - [X] ProblemsFix - Library forlder seems no more needed
 - [ ] ProblemsFix - Japanese Vertical LtoR Epub Navigation Problem
 - [x] ProblemsFix - Bookmarks and Highlights are not showing
 - [ ] ProblemsFix - Reader-> User Preferences -> Theme BG Color not applying to NavigationBar some time.
 - [x] ProblemsFix - Readers sheet has different button color with global tint color.
-- [ ] Polish - Logging replace prints to log
-- [ ] Polish - add sound effect to events
-- [ ] Polish - add haptic event to buttons
+                    settings.effectiveBackgroundColor.uiColor
+- [ ] ProblemsFix - Settings test speech performance
+- [ ] ProblemsFix - Reader - Background Speech and Navigation when back to app problem
+- [x] Polish - Logging replace prints to log
 - [ ] Polish - systemImage Icons
 - [ ] Polish - settings add developer section
-- [ ] Polish - SwiftUI Preview
 - [ ] Polish - Onboarding
-- [ ] Polish - App Icon
-- [ ] Polish - Splash
+- [ ] Polish - App Icon (MU Circle)
+- [x] Polish - Splash | Launch Screen | By LaunchImage (If launch Image not updates, delete app, reboot iPhone, reinstall app)
 - [ ] Polish - FOSS License json file
 - [ ] Polish - FOSS License view polish
-- [ ] Polish - Search View Polish
+- [x] Polish - Search View Polish
 - [ ] Polish - Settings add Helper View (Show onboarding sheet?)
-- [ ] Other - TextContentSpeechSynthesizer
+- [ ] Other - TextContentSpeechSynthesizer test
 - [ ] Other - Design System
 
-# Research Expands
-- [ ] Apple developer
-- [ ] IAP https://adapty.io/blog/in-app-purchase-tutorial-for-ios/
-- [ ] S,Ex String Localization
-- [ ] Ex Share Extension
-- [ ] Ex Open url router add Webview Router similar to Safari Router
-- [ ] Ex Store AI API key to Firebasestore and use it.
-- [ ] Ex Font Picker from IceCube ??
 
-# App State
-- Show users learning words only for now.
+# Do later
+- [x] Book - tags (Category) (add remove)
+- [ ] Book - tags LibraryView set filter menu for navigation title (by tag)
+- [ ] Book - tags Book relation to tag and UI
+- [ ] Book - EX Add Users Reading PaperBook Info for tracking
+- [ ] Polish - add sound effect to events
+- [ ] Polish - add haptic event to buttons
+- [ ] Polish - SwiftUI Preview
+- [ ] Settings - Where to find Free E books
+- [ ] Tracker - idioms, phrasal verbs...
 
 # iOS Github libs
-  https://swiftpackageindex.com
-  - https://github.com/dkk/WrappingHStack
-  - https://www.wishkit.io/?ref=github
-  - https://telemetrydeck.com
-  - https://swiftpackageindex.com/
-  - https://github.com/siteline/swiftui-introspect
-  - https://github.com/scinfu/SwiftSoup
-  - https://github.com/swiftlang/swift-markdown
-  - https://github.com/SFSafeSymbols/SFSafeSymbols
-  - https://github.com/RevenueCat/purchases-ios             https://www.revenuecat.com
-  - https://github.com/kean/Nuke
-  - https://github.com/nicklockwood/LRUCache/
-  - https://github.com/evgenyneu/keychain-swift
-  - https://github.com/divadretlaw/EmojiText
-  - https://github.com/commonmark/cmark
-  - https://github.com/Dean151/ButtonKit
-  - https://github.com/mergesort/Bodega
-  - https://github.com/SwiftyBeaver/SwiftyBeaver  (logger)
+- Readium
+- CryptoSwift
+- DifferenceKit
+- GCDWebServer
+- GRDB
+- Kingfisher
+- MBProgressHUD
+- Fuzi
+- ZipFoundation
+- SwiftSoup
+- SwiftyBeaver
+- Zip
 
-# Milestone
-1. Reader
-2. Vocab
-3. Tokenize
-4. Text to Speech
-5. Translate
-6. Setting
-7. Deck
-8. Quiz
-9. Tracking
-10. AI
+
+# Road Map
+1. Reader ✅
+2. Vocab (Dictionary)
+3. Tokenize ✅
+4. Text to Speech ✅
+5. Translate (iOS 18) ✅
+6. Setting ✅
+7. Tracking
+8. Deck (Remember)
+9. Quiz - Toeic like | Word Fitting Like Duolingo | Translation | Speech Recognize | Keboard typping
+10. AI - iOS 26, Apple Inteligence, Foundation Models | AI API Services
+11. Serverside Content by server or Content provider servuce
+12. Serverside feature, User, Connection
+13. Mastodon Social
