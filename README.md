@@ -4,6 +4,7 @@
 ## プロジェクト概要
 
 まだ進行中の個人作成アプリです。
+Readiumを参考、利用しています。機能追加変更（主に英語学習機能）しています。
 ユーザーがローカルから英語内容の本（EPUB,PDF）をアプリに読み込み、単語分割、翻訳、読み上げできるようにしています。
 単語の記憶ステータス管理ができます。（例：本を読む途中、その後）
 
@@ -56,20 +57,20 @@
   - [x] Extract words from EPub
   - [ ] Extract words from PDF
   - [ ] Words Counter
-    - [ ] filtering simple basic words (definition of list not copleted)
+    - [ ] filtering simple basic words (definition of list not completed)
     - [ ] filtering users known words
     - [x] counting by simple words (words shown on text)
     - [x] counting by lemmatized words
-    - [ ] counting - write swing test
+    - [ ] counting - write swift test
     - [x] sorting result by count
     - [x] sorting result by alphabetic
     - [ ] sorting descending
     - [x] UI fot show result (BookAnalyzeView)
-      - [ ] state controll (ignore), translate, polish (Make Batch Translation, for example if there is 4k words in the list, translate 100 words in once)
-- [x] Settings - and view
+      - [ ] state controll (ignore), translate, polish (Make Batch Translation, for example if there is 4k words in the list, translate 100 words by once)
+- [x] Settings - view
 - [x] Settings - add software libraries section
 - [x] Settings - Language and Voice Categorization Research
-- [x] Settings - voices pitch and speed (source done)
+- [x] Settings - voices pitch and speed (source)
 - [x] Settings - voices pitch and speed (target)
 - [x] Settings - TTS: TTSViewModel need to use non global voice, language pitch, rate
 - [x] Settings - TTS: AVTTSEngine - make preUtteranceDelay configurable by Settings
@@ -88,10 +89,9 @@
 - [ ] Wordlist - add sentence(database record) similar to add word x add highlight. (learning sentence)
 - [x] ProblemsFix - Translation frequently no result, or not refreshing UI. (Do not translate too long text. batch translation seems no problem)
 - [ ] ProblemsFix - warnings when close in appp browser
-- [X] ProblemsFix - Library forlder seems no more needed
-- [ ] ProblemsFix - Japanese Vertical LtoR Epub Navigation Problem
+- [ ] ProblemsFix - Japanese Vertical RtoL Epub Navigation Problem
 - [x] ProblemsFix - Bookmarks and Highlights are not showing
-- [ ] ProblemsFix - Reader-> User Preferences -> Theme BG Color not applying to NavigationBar some time.
+- [ ] ProblemsFix - Reader-> User Preferences -> Theme BG Color not applying for NavigationBar some time.
 - [x] ProblemsFix - Readers sheet has different button color with global tint color.
                     settings.effectiveBackgroundColor.uiColor
 - [ ] ProblemsFix - Settings test speech performance
