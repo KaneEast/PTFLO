@@ -4,7 +4,7 @@
 ## プロジェクト概要
 
 まだ進行中の個人作成アプリです。
-Readiumを参考、利用しています。機能追加変更（主に英語学習機能）しています。
+Readiumを参考、利用しています。機能追加、変更（主に英語学習機能）しています。
 ユーザーがローカルから英語内容の本（EPUB,PDF）をアプリに読み込み、単語分割、翻訳、読み上げできるようにしています。
 単語の記憶ステータス管理ができます。（例：本を読む途中、その後）
 
@@ -26,6 +26,7 @@ Readiumを参考、利用しています。機能追加変更（主に英語学�
 | ![Image 4](imgsnew/4.png) | ![Image 5](imgsnew/5.png) | ![Image 6](imgsnew/6.png) |
 | ![Image 7](imgsnew/7.png) | ![Image 8](imgsnew/8.png) | ![Image 6](imgsnew/9.png) |
 | ![Image 10](imgsnew/10.png) | ![Image 11](imgsnew/11.png) | ![Image 12](imgsnew/12.png) |
+| ![Image 13](imgsnew/13.png) | ![Image 14](imgsnew/14.png) | ![Image 15](imgsnew/15.png) |
 
 
 ## 技術スタック
