@@ -5,6 +5,8 @@
 
 まだ進行中の個人作成アプリです。
 Readiumを参考、利用しています。機能追加、変更（主に英語学習機能）しています。
+(オープンソースには参加していませんが余裕がある時に日本語スタイルの電子書籍のナビゲーション問題を解決しコミットする考えです。)
+
 ユーザーがローカルから英語内容の本（EPUB,PDF）をアプリに読み込み、単語分割、翻訳、読み上げできるようにしています。
 単語の記憶ステータス管理ができます。（例：本を読む途中、その後）
 
@@ -27,7 +29,7 @@ Readiumを参考、利用しています。機能追加、変更（主に英語�
 | ![Image 7](imgsnew/7.png) | ![Image 8](imgsnew/8.png) | ![Image 6](imgsnew/9.png) |
 | ![Image 10](imgsnew/10.png) | ![Image 11](imgsnew/11.png) | ![Image 12](imgsnew/12.png) |
 | ![Image 13](imgsnew/13.png) | ![Image 14](imgsnew/14.png) | ![Image 15](imgsnew/15.png) |
-
+| ![Image 16](imgsnew/16.png) | - | - |
 
 ## 技術スタック
 
@@ -139,18 +141,19 @@ Readiumを参考、利用しています。機能追加、変更（主に英語�
 
 # Road Map
 1. Reader ✅
-2. Vocab (Dictionary)
+2. Vocab (Dictionary, Wikipedia)
 3. Tokenize ✅
 4. Text to Speech ✅
 5. Translate (iOS 18) ✅
 6. Setting ✅
 7. Tracking
-8. Deck (Remember)
-9. Quiz - Toeic like | Word Fitting Like Duolingo | Translation | Speech Recognize | Keboard typping
-10. AI - iOS 26, Apple Inteligence, Foundation Models | AI API Services
-11. Audio Book
-12. CBZ Book
-13. Streaming
-14. Serverside Content by server or Content provider service
-15. Serverside feature, User, Connection
-16. Social
+8. CMS + GraphQL (Contentful + Apollo GraphQL)
+9. Deck (Remember)
+10. Quiz - Toeic like | Word Fitting Like Duolingo | Translation | Speech Recognize | Keboard typping
+11. AI - iOS 26, Apple Inteligence, Foundation Models | AI API Services
+12. Audio Book
+13. CBZ Book
+14. Streaming
+15. Serverside Content by server or Content provider service
+16. Serverside feature, User, Connection
+17. Social
