@@ -169,14 +169,7 @@ Readiumを参考、利用しています。機能追加、変更（主に英語�
 4. Text to Speech ✅
 5. Translate (iOS 18) ✅
 6. Setting ✅
-7. Tracking
-8. CMS + GraphQL (Contentful + Apollo GraphQL)
-9. Deck (Remember)
-10. Quiz - Toeic like | Word Fitting Like Duolingo | Translation | Speech Recognize | Keboard typping
-11. AI - iOS 26, Apple Inteligence, Foundation Models | AI API Services
-12. Audio Book
-13. CBZ Book
-14. Streaming
-15. Serverside Content by server or Content provider service
-16. Serverside feature, User, Connection
-17. Social
+7. CMS + GraphQL (Contentful + Apollo GraphQL)
+8. Deck (Remember)
+9. Quiz - Toeic like | Word Fitting Like Duolingo | Translation | Speech Recognize | Keboard typping
+10. AI - iOS 26, Apple Inteligence, Foundation Models
