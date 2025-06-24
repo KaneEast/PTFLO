@@ -1,4 +1,27 @@
-## EPUBの電子書籍に対応中、設計直し途中　（2025/04）
+<details>
+<summary><strong>📄 Disclaimer of Use / 利用に関する免責事項（クリックで展開）</strong></summary>
+
+### 🇯🇵 日本語（Japanese）
+
+本アプリは語学学習を目的とした**個人利用専用のツール**です。
+書籍等の著作物の内容を処理する際は、**著作権法等の関連法令に留意し、ご自身の責任においてご使用ください**。
+
+本アプリに搭載されている全ての機能（OCR、翻訳、音声読み上げ、語彙の出現頻度分析など）は、**すべてユーザーの端末上でローカルに実行されます**。
+アプリは処理内容やデータを外部に送信・保存・分析することは一切ありません。
+アプリはあくまで学習支援のための**ツール提供のみを行うものであり、使用結果についてはユーザーご自身の責任となります**。
+
+---
+
+### 🇬🇧 English
+
+This app is a tool designed **solely for personal use for the purpose of language learning**.
+When processing content from books or other copyrighted materials, **please use it at your own discretion and be mindful of applicable copyright laws**.
+
+All features in this app (including OCR, translation, text-to-speech, and word frequency analysis) are **executed entirely on the user's device**.
+The app does **not collect, transmit, store, or analyze** any user content externally.
+It functions purely as a **local tool**, and the responsibility for how it is used rests entirely with the user.
+
+</details>
 
 
 ## プロジェクト概要
