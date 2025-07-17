@@ -11,21 +11,25 @@
 - Readium
 - AVKit
 - Translation
+- AI
 - ...
 
-# Road Map
-1. Reader 
-2. NaturalLanguage
-3. TTS
-4. Translate
-5. CMS
-6. Deck
-7. Quiz
-8. AI
+# Feature
+- Reader 
+- NaturalLanguage
+- TTS
+- Translate
+- AI
+
+# Plan
+- CMS
+- Deck
+- Quiz
+
 
 ## スクリーンショット
 
 | - | - | - | - |
 | ---- | ---- | ---- | ---- |
 | ![Image 1](imgsnew/1.png) | ![Image 2](imgsnew/2.png) | ![Image 3](imgsnew/3.png) | ![Image 4](imgsnew/4.png) |
-| ![Image 5](imgsnew/5.png) | ![Image 6](imgsnew/6.png) | ![Image 7](imgsnew/7.png) | - |
+| ![Image 5](imgsnew/5.png) | ![Image 7](imgsnew/7.png) | ![Image 8](imgsnew/8.png) | ![Image 9](imgsnew/9.png) |
