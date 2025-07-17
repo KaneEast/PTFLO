@@ -25,6 +25,7 @@
 - CMS
 - Deck
 - Quiz
+- OnDevice AI
 
 
 ## スクリーンショット
