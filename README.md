@@ -5,7 +5,7 @@
 - SwiftUI, UIKit
 - MVVM
 - GRDB
-- Observation
+- Observation, ObservableObject
 - Combine
 - NaturalLanguage
 - Readium
@@ -15,11 +15,11 @@
 - ...
 
 ## Feature
-- Reader
+- Reader (Readium)
 - NaturalLanguage
 - TTS (https://github.com/KaneEast/SwiftTTS)
-- Translate
-- AI
+- Translate (iOS18)
+- AI (Claude API)
 
 ## Plan
 - CMS
