@@ -22,6 +22,7 @@
 - AI (Claude API)
 
 ## Plan
+- Markdown
 - Firebase (CMS, Auth, Share Generated Books)
 - Deck, Quiz
 - OnDevice AI
