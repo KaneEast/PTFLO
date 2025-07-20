@@ -22,10 +22,10 @@
 - AI (Claude API)
 
 ## Plan
-- CMS
-- Deck
-- Quiz
+- Firebase (CMS, Auth, Share Generated Books)
+- Deck, Quiz
 - OnDevice AI
+- ...
 
 
 ## Screenshot
@@ -33,5 +33,7 @@
 | - | - | - |
 | ---- | ---- | ---- |
 | ![Image 1](imgsnew/1.png) | ![Image 2](imgsnew/2.png) | ![Image 3](imgsnew/3.png) |
-| ![Image 4](imgsnew/4.png) | ![Image 5](imgsnew/5.png) | ![Image 7](imgsnew/7.png) |
-| ![Image 8](imgsnew/8.png) | ![Image 9](imgsnew/9.png) |
+| ![Image 4](imgsnew/4.png) | ![Image 5](imgsnew/5.png) | ![Image 6](imgsnew/6.png) |
+| ![Image 7](imgsnew/7.png) | ![Image 8](imgsnew/8.png) | ![Image 9](imgsnew/9.png) |
+| ![Image 10](imgsnew/10.png) | ![Image 11](imgsnew/11.png) | ![Image 12](imgsnew/12.png) |
+| ![Image 13](imgsnew/13.png) | - | - |
