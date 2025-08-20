@@ -16,4 +16,4 @@
 
 | - | - |
 | ---- | ---- |
-| ![N1](imgsnew/N1.png) | ![N2](imgsnew/N2.png) |
+| ![N1](imgsnew/N1.png) | ![N2](imgsnew/N3.png) |
