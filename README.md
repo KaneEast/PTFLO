@@ -21,4 +21,4 @@
 | ---- | ---- |
 | ![N1](imgsnew/N1.png) | ![N2](imgsnew/N3.png) |
 | ![N4](imgsnew/N4.png) | ![N5](imgsnew/N5.png) |
-| ![N6](imgsnew/N6.png) | - |
+| ![N6](imgsnew/N6.png) | ![N7](imgsnew/N7.png) |
